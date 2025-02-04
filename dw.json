@@ -1,0 +1,168 @@
+{
+    "name": "Grocery Shopping API",
+    "version": "1.0",
+    "description": "API endpoints for managing users, products, orders, payments, and reviews in a grocery shopping application.",
+    "endpoints": [
+      {
+        "path": "/register",
+        "method": "POST",
+        "description": "Register a new user"
+      },
+      {
+        "path": "/login",
+        "method": "POST",
+        "description": "User login"
+      },
+      {
+        "path": "/user/{user_id}",
+        "method": "GET",
+        "description": "Get user details"
+      },
+      {
+        "path": "/user/{user_id}",
+        "method": "PUT",
+        "description": "Update user details"
+      },
+      {
+        "path": "/user/{user_id}",
+        "method": "DELETE",
+        "description": "Delete user account"
+      },
+      {
+        "path": "/products",
+        "method": "POST",
+        "description": "Add a new product"
+      },
+      {
+        "path": "/products/{product_id}",
+        "method": "GET",
+        "description": "Get product details"
+      },
+      {
+        "path": "/products/{product_id}",
+        "method": "PUT",
+        "description": "Update product details"
+      },
+      {
+        "path": "/products/{product_id}",
+        "method": "DELETE",
+        "description": "Delete a product"
+      },
+      {
+        "path": "/products",
+        "method": "GET",
+        "description": "Get list of all products"
+      },
+      {
+        "path": "/cart/{user_id}",
+        "method": "GET",
+        "description": "View cart items"
+      },
+      {
+        "path": "/cart/{user_id}/add",
+        "method": "POST",
+        "description": "Add item to cart"
+      },
+      {
+        "path": "/cart/{user_id}/remove",
+        "method": "POST",
+        "description": "Remove item from cart"
+      },
+      {
+        "path": "/cart/{user_id}/clear",
+        "method": "POST",
+        "description": "Clear all items from cart"
+      },
+      {
+        "path": "/orders/{user_id}",
+        "method": "POST",
+        "description": "Place an order"
+      },
+      {
+        "path": "/orders/{order_id}",
+        "method": "GET",
+        "description": "Get order details"
+      },
+      {
+        "path": "/orders/{order_id}",
+        "method": "DELETE",
+        "description": "Cancel an order"
+      },
+      {
+        "path": "/orders/{user_id}/history",
+        "method": "GET",
+        "description": "View order history"
+      },
+      {
+        "path": "/payments/{user_id}",
+        "method": "POST",
+        "description": "Process payment"
+      },
+      {
+        "path": "/payments/{user_id}/history",
+        "method": "GET",
+        "description": "View payment history"
+      },
+      {
+        "path": "/products/{product_id}/review",
+        "method": "POST",
+        "description": "Add a review for a product"
+      },
+      {
+        "path": "/products/{product_id}/reviews",
+        "method": "GET",
+        "description": "Get all reviews for a product"
+      },
+      {
+        "path": "/products/{product_id}/review/{review_id}",
+        "method": "DELETE",
+        "description": "Delete a review"
+      },
+      {
+        "path": "/offers",
+        "method": "GET",
+        "description": "Get list of current offers"
+      },
+      {
+        "path": "/apply-coupon",
+        "method": "POST",
+        "description": "Apply a discount coupon"
+      },
+      {
+        "path": "/wishlist/{user_id}",
+        "method": "GET",
+        "description": "View wishlist items"
+      },
+      {
+        "path": "/wishlist/{user_id}/add",
+        "method": "POST",
+        "description": "Add an item to wishlist"
+      },
+      {
+        "path": "/wishlist/{user_id}/remove",
+        "method": "POST",
+        "description": "Remove an item from wishlist"
+      },
+      {
+        "path": "/search",
+        "method": "GET",
+        "description": "Search for products"
+      },
+      {
+        "path": "/feedback",
+        "method": "POST",
+        "description": "Submit user feedback"
+      },
+      {
+        "path": "/app-stats",
+        "method": "GET",
+        "description": "Get app statistics"
+      },
+      {
+        "path": "/health-check",
+        "method": "GET",
+        "description": "Check API server status"
+      }
+    ]
+  }
+  
